@@ -1,0 +1,377 @@
+business_unit_id,business_unit
+1,American Sterling Ins Co
+2,Gibraltar Natl Ins Co
+3,Baltica-Skandinavia Rein Co Of Amer
+4,Star Cas Ins Co
+5,Governmental Interins Exch
+6,Consumers Ins Usa Inc
+7,Old Lyme Ins Co Of RI Inc
+8,Eveready Ins Co
+9,Standard Mut Ins Co
+10,Inland Mut Ins Co
+11,American Resources Ins Co Inc
+12,Illinois Cas Co
+13,Nova Cas Co
+14,Oklahoma Farm Grp
+15,Cornerstone Natl Ins Co
+16,Zurich Ins (Guam) Inc
+17,Capital City Ins Co Inc
+18,Kansas Mut Ins Co
+19,Grinnell Mut Grp
+20,Armed Forces Ins Exchange
+21,Island Ins Cos Grp
+22,College Liability Ins Co Ltd RRG
+23,Michigan Millers Mut Ins Co
+24,Middle States Ins Co Inc
+25,Leatherstocking Coop Ins  Co
+26,Tenn Farmers Mut
+27,Federated Natl Ins Co
+28,Housing & Redevelopment Ins Exch
+29,National Automotive Ins
+30,Transit Mut Ins Corp Of WI
+31,Workers Comp Exch
+32,Aegis Grp
+33,Maple Valley Mut Ins Co
+34,Star Ins Grp
+35,Hawaii Employers Mut Ins Co
+36,National Fire & Cas Co
+37,First Nonprofit Mut Ins Co
+38,Southern Group Ind Inc
+39,Midwest Family Mut Ins Co
+40,Farmers Mut Of TN
+41,Franklin Mut Ins Grp
+42,Vanliner Ins Co
+43,Financial Cas & Surety Inc
+44,Amerisafe Grp
+45,Kentucky Farm Bureau Mut Ins Grp
+46,Clinic Mut Ins Co RRG
+47,Partners Mut Ins Co
+48,First Mercury Ins Co
+49,Interboro Mut Ind Ins Co
+50,Merced Mut Ins Co
+51,Cooperativa D Seguros Multiples PR
+52,Nichido Fire & Marine Ins Co Ltd
+53,Capitol Transamerican Grp
+54,Century-Natl Ins Co
+55,RLI Ins Co Grp
+56,Dentists Ins Co
+57,Hanys Ins Co
+58,Southern Mut Church Ins Co
+59,Mlba Limited Liability Pool
+60,Springfield Fire & Cas Co
+61,American Contractors Ins Grp
+62,Markel Corp Grp
+63,Occidental Fire & Cas Co Grp
+64,Samsung Fire & Marine Ins Co Ltd
+65,Universal Surety Grp
+66,Allegheny Cas Co
+67,Louisiana Pest Control Ins Co
+68,American Assoc Of Othodontists RRG
+69,American Hallmark Ins Co Of TX
+70,Fremont Mut Ins Co
+71,IMT Ins Co Mut
+72,United Services Automobile Asn Grp
+73,Yel Co Ins
+74,Colorado Farm Bureau Mut Ins Co
+75,Auto Club South Ins Co
+76,Laundry Owners Mut Liab Ins Asn
+77,State Fund Mut Ins Co
+78,Public Underwriters Grp
+79,Atlantic Cas Ins Co
+80,FL Farm Bureau Grp
+81,Lancer Ins Co
+82,Keystone Ins Grp
+83,Wisconsin Cnty Mut Ins Corp
+84,Farmers Automobile Grp
+85,North Sea Ins Co
+86,Penn Miller Grp
+87,Great Amer Grp
+88,Sheboygan Falls Mut Ins Co
+89,Federal Ins Co Grp
+90,Pioneer State Mut Ins Co
+91,Home State Cnty Mut Ins Co
+92,Hyundai Marine & Fire Ins Co Ltd
+93,First Fncl Ins Co
+94,Farmers Union Mut Ins Co
+95,Employers Mut Co Of Des Moines
+96,Nationwide Grp
+97,Missouri Valley Mut Ins Co
+98,Elevators Mut Ins Co
+99,State-Wide Ins Co
+100,Antilles Ins Co
+101,Auto Club Ins Assn
+102,North American Ind Co
+103,Constitutional Cas Co
+104,United Americas Ins Co
+105,Petroleum Cas Co
+106,Red Shield Ins Co
+107,Wi Lawyers Mut Ins Co
+108,NCMIC Ins Co
+109,Old American Cty Mut Fire Ins Co
+110,FM Global
+111,American Agricultural Ins Co
+112,Vermont Mut Ins Co Grp
+113,NHC Ins Co
+114,Seminole Cas Ins Co
+115,Triangle Ins Co Inc
+116,IL State Bar Assoc Mut Ins Co
+117,Montour Mut Ins Co
+118,South Carolina Farm Bureau Mut
+119,Brethren Mut Ins Co
+120,State Farm Mut Grp
+121,Millers Mut Ins Assoc
+122,North Star Co
+123,Commercial Mut Ins Co
+124,Pennsylvania Lumbermens Mut Ins
+125,Louisiana Farm Bureau Mut Ins Co
+126,Farmers Mut Ins Co Of NE
+127,Ophthalmic Mut Ins Co RRG
+128,National Catholic RRG
+129,Agway Ins Co
+130,Dorinco Rein Co
+131,Pymatuning Mut Fire Ins Co
+132,Motor Club Ins Assoc
+133,Lawyers Mut Liab Ins Co Of NC
+134,Franklin Cas Ins Co RRG
+135,Cooperative Mut Ins Co
+136,Regis Ins Co
+137,Associated Loggers Exch
+138,Adriatic Ins Co
+139,Madison Mut Ins Co
+140,First Amer Ins Co
+141,Philadelphia Ind Ins Co & Aff
+142,Tower Ins Co Of NY
+143,Badger Mut Ins Co
+144,New Jersey Citizens United Rcp Exch
+145,Northwest Gf Mut Ins Co
+146,Hastings Mut Ins Co
+147,Sterling Ins Co
+148,Paratransit RRG Grp Ins Co
+149,Halifax Mut Ins Co
+150,MCIC VT Inc RRG
+151,Chicago Mut Ins Co
+152,Capacity Ins Co
+153,THE Ins Co
+154,Lutheran Mut Fire Ins Co
+155,Manhattan Re Ins Co
+156,Frederick Mut Ins Co
+157,Sublimity Ins Co
+158,Gold Medal Ins Co
+159,Alaska Nat Ins Co
+160,Columbia Ins Grp
+161,Philadelphia CBSP Grp
+162,Wayne Mut Ins Co
+163,Battle Creek Mut Ins Co
+164,American Re Grp
+165,Finger Lakes Fire & Cas Ins Co
+166,Umialik Ins Co
+167,Wea Prop & Cas Ins Co
+168,Lg Ins Co Ltd Us Branch
+169,Mid-Hudson Co-Operative Ins Co
+170,Firstcomp Ins Co
+171,Ocean Harbor Cas Ins Co
+172,Service Ins Co
+173,Rainier Ins Co
+174,Interstate Auto Ins Co Inc
+175,Medical Mut Ins Co Of ME
+176,Sirius Amer Ins Co
+177,Yasuda Fire & Marine Ins Co Of Amer
+178,Wisconsin American Mut Ins Co
+179,Wawanesa Ins Grp
+180,US Lloyds Ins Co
+181,Promutual Grp
+182,Hochheim Prairie Ins Grp
+183,Rockford Mut Ins Co
+184,Farmers Home Mut Fire Ins Co
+185,West Bend Mut Ins Grp
+186,Harbor Ins Co
+187,Texas Medical Ins Co
+188,Camico Mut Ins Co
+189,Gulf States Ins Co
+190,Commercial Risk Re-Ins Co
+191,Nodak Mut Ins Co
+192,Transportation Cas Ins Co
+193,Farm Bureau Grp
+194,Southland Lloyds Ins Co
+195,First American Specilaty Ins Co
+196,Center Mut Ins Co
+197,Commerce Grp Inc
+198,Traders Ins Co
+199,Daily Underwriters Of Amer
+200,Shelter Ins Cos Grp
+201,Nissan Fire & Marine Ins Co Us Br
+202,Proformance Ins Co (The)
+203,Contractors Bonding & Ins Co
+204,Florists Mut Ins Grp
+205,Virginia Mut Ins Co
+206,Nonprofits Ins Assn Interins
+207,American Modern Ins Grp Inc
+208,Louisiana Med Mut Ins Co
+209,Protective Ins Grp
+210,Seguros Triples Inc
+211,Secura Ins Co
+212,Catholic Relief Ins Co Of Amer
+213,Scor Reins Co Grp
+214,San Antonio Reins Co
+215,States Self-Insurers RRG
+216,MHA Ins Co
+217,GA Resaurant Mut Captive Ins Co
+218,Overseas Partners Us Reins Co
+219,Cameron Mut Grp
+220,New York Municipal Ins Reciprocal
+221,National American Ins Co
+222,Canal Ins Co Grp
+223,Scpie Indemnity Co
+224,IFA Ins Co
+225,American Country Ins Co
+226,Utilities Mut Ins Co
+227,Southwest General Ins Co
+228,Distributors Ins Co
+229,Benchmark Ins Co
+230,Standard Cas Co
+231,Mutual Benefit Grp
+232,Preferred Mut Ins Co
+233,Everett Cash Mut Ins Co
+234,Associated Industries Ins Co
+235,Diamond Ins Co
+236,Texas Hospital Ins Exch
+237,Mutual Ins Co Of Lehigh Cnty
+238,Amguard Norguard & Eastguard Grp
+239,Cities & Villages Mut Ins Co
+240,California Healthcare Ins Co Inc
+241,Employers Security Ins Co
+242,NLC Mut Ins Co
+243,Transguard Ins Co Of Amer Inc
+244,Preferred Risk Mut Grp
+245,Utah Medical Ins Assoc
+246,Casco Ind Co
+247,Gramercy Ins Co
+248,Housing Authority Rrg Inc
+249,American Mining Ins Co Inc
+250,German Mut Ins Co
+251,Alliance Mut Ins Co
+252,NC Farm Bureau Ins Grp
+253,Florida Hospitality Mut Ins Co
+254,Horace Mann Grp
+255,Farm Bureau Of MI Grp
+256,Mississippi Farm Bureau Mut Ins Co
+257,Homestead Ins Co
+258,Oregon Mut Grp
+259,Alaska Timber Ins Exchange
+260,Farmers Mtl Hail Ins Co Of Ia Grp
+261,Marysville Mut Ins Co
+262,Discovery Ins Co
+263,United Educators Ins RRG Inc
+264,Fulmont Mut Ins Co
+265,Beacon Mut Ins Co
+266,Farmers Mut Ins Co
+267,Community Blood Cntr Exch RRG
+268,Nevada General Ins Co
+269,Health Care Ind Inc
+270,Hannahstown Mut Ins Co
+271,Otsego Mut Fire Ins Co
+272,FFVA Mut Ins Co
+273,Lumber Ins Cos
+274,Germania Ins Grp
+275,American Vehicle Ins Co
+276,Atlantic Mut Grp
+277,Southern MI Mut Ins Co
+278,Eastern Dentists Ins Co RRG
+279,IDS Property Cas Ins Co
+280,Allstate Ins Co Grp
+281,Central Co-Operative Ins Co
+282,Springfield Ins Co Inc
+283,Millville Mut Ins Co
+284,New Jersey Manufacturers Grp
+285,Rider Ins Co
+286,Farmers Mech Mut Fire Ins Of WV
+287,Housing Authority Prop Ins Inc
+288,Tri-State Consumer Ins Co
+289,Erie Ins Exchange Grp
+290,Michigan Professional Ins Exch
+291,United Grp Captive Ins Co
+292,New York Marine & General Ins Co
+293,Midstate Mut Ins Co
+294,Southern Mut Ins Co
+295,Evergreen USA RRG Inc
+296,Celina Mut Grp
+297,Everest Reins Grp
+298,Underwriters At Lloyds London
+299,Farmers Fire Ins Co
+300,Buckeye Ins Grp
+301,Nazareth Mut Ins Co
+302,Florida Lawyers Mut Ins Co
+303,Toa-Re Ins Co Of Amer
+304,Goldstreet Ins Co
+305,MO Employers Mut Ins Co
+306,Wellington Ins Co
+307,Mountain West Farm Bu Mut Ins Co
+308,Farmers Alliance Mut & Affiliates
+309,General Eastern Ski Ins RRG Inc
+310,Farmers Ins Co of Flemington
+311,Mid-Continent Ins Co
+312,Protection Mut Ins Co Of Littlestown
+313,Agency Ins Co Of MD Inc
+314,National Guardian RRG Inc
+315,Haulers Ins Co Inc
+316,Omega Ins Co
+317,Federated Mut Grp
+318,Campmed Cas & Ind Co Inc MD
+319,Juniata Mut Ins Co
+320,Patrons Grp
+321,Millers Capital Ins Co
+322,Midstates Rein Corp
+323,Pacific Pioneer Ins Co
+324,Imperial Cas & Ind Co
+325,Maine Mut Fire Ins Co
+326,Agri General Ins Co
+327,Continental Natl Ind Co
+328,Care West Ins Co
+329,Mennonite Mut Ins Co
+330,Patrons Mut Fire Assoc Of Nw PA
+331,California Cas Grp
+332,British Amer Ins Co
+333,Goodville Mut Cas Co
+334,Lumbermens Underwriting Alliance
+335,Bedford Grange Mut Ins Co
+336,State Volunteer Mut Ins Co
+337,Golden Bear Ins Co
+338,Martingale Natl Ins Co
+339,Residence Mut Grp
+340,Cumberland Cas & Surety Co
+341,Carolina Farmers Mut Ins Co
+342,All Nation Ins Co
+343,Conemaugh Valley Mut Ins Co
+344,Security Mut Ins Co
+345,Mapfre Reins Corp
+346,Preferred Professional Ins Co
+347,Bell United Ins Co
+348,Utica First Ins Co
+349,Fitchburg Mut Ins Co
+350,Physicians Recip Insurers
+351,Mada Ins Exchange
+352,Bancinsure Inc
+353,Wolverine Mut Ins Co
+354,Dowa Fire & Marine Ins Co Ltd Us Br
+355,Lackawanna Cas Co
+356,Harco Natl Ins Co
+357,Spartan Ins Co
+358,Peachtree Cas Ins Co
+359,National Unity Ins Co
+360,Wisconsin Mut Ins Co
+361,Usauto Ins Co
+362,Oswego County Mut Ins Co
+363,Crusader Ins Co
+364,Dryden Mut Ins Co
+365,Federated Rural Electric Ins Corp
+366,Pacific Specialty Ins Co
+367,Generali Us Branch
+368,Pennsylvania Mfg Asn Ins Co
+369,Pennsylvania Natl Ins Grp
+370,Co-Operative Ins Co
+371,Pacific Ind Ins Co
+372,Grange Ins Asn Grp
+373,Lebanon Mut Ins Co
+374,Church Mut Ins Co
+375,Controlled Risk Ins Co Of VT Inc
+376,Brotherhood Mut Ins Co
