@@ -1,0 +1,46 @@
+# Taskfile.yml
+
+version: '3'
+
+tasks:
+  env-install:
+    desc: Install the environment
+    cmds:
+      - pip install -r requirements.txt
+      - cd transform && dbt deps
+
+  data-load:
+    desc: Load data from database to parquet with dlt
+    cmds:
+      - cd load && python data_load.py
+
+  dbt-docs:
+    desc: Run dbt docs generate
+    cmds:
+      - cd transform
+      - dbt docs generate
+      - dbt docs serve
+
+  build-docs:
+    desc: Run dbt docs generate and Mkdocks build
+    cmds:
+      - cd transform && dbt docs generate --target-path ../docs/static/dbt
+      - mkdocs build
+  docker-build:
+    desc: Build the Docker image
+    cmds:
+      - cd docs && docker build -t caddy_docs .
+
+  docker-run:
+    desc: Run the Docker image
+    cmds:
+      - docker run --name docker_docs -d -p 82:80 -p 445:443 -v $PWD/site:/var/www/html  caddy_docs
+
+  docker-stop:
+    desc: Stop and remove the Docker image
+    cmds:
+      - docker kill docker_docs && docker rm docker_docs
+  docker-bash:
+    desc: Stop and remove the Docker image
+    cmds:
+      - docker exec -it docker_docs /bin/sh

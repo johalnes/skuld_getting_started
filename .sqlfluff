@@ -1,0 +1,21 @@
+[sqlfluff]
+dialect = duckdb
+templater = dbt
+max_line_length = 88
+exclude_rules = layout.indent, layout.cte_bracket, layout.select_targets, structure.column_order
+
+[sqlfluff:indentation]
+# While implicit indents are not enabled by default. Many of the
+# SQLFluff maintainers do use them in their projects.
+allow_implicit_indents = True
+
+[sqlfluff:templater:dbt]
+profiles_dir = ./transform/
+project_dir = ./transform/
+
+[sqlfluff:rules]
+capitalisation_policy = lower
+extended_capitalisation_policy = lower
+
+[sqlfluff:rules:convention.terminator]
+multiline_newline = True

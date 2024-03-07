@@ -1,0 +1,101 @@
+on:
+  pull_request:
+    branches:
+      - '**'
+jobs:
+  ci:
+    name: CI Check
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      repository-projects: write
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.0
+      - name: Setup Python
+        uses: actions/setup-python@v4.7.0
+        with:
+          python-version: "3.10.x"
+      - name: Install Task
+        uses: arduino/setup-task@v2
+
+      - name: Install packages for Python and DBT
+        run: task env-install
+      - name: DBT Build
+        env:
+          MLFINANCE_STORAGE_KEY: ${{ secrets.MLFINANCE_STORAGE_KEY }}
+        run: mkdir -p data && cd transform && dbt build
+      - name: PipeRider Compare
+        env:
+          MLFINANCE_STORAGE_KEY: ${{ secrets.MLFINANCE_STORAGE_KEY }}
+        run: git fetch --unshallow && git fetch origin main:main && cd transform && piperider compare
+
+      - name: Comment PR with Piperider summary
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            // Specify the path to your markdown file
+            const markdownFilePath = path.join(process.env.GITHUB_WORKSPACE, '/transform/.piperider/comparisons/latest/summary.md');
+
+            // Read the content of the markdown file
+            const markdownContent = fs.readFileSync(markdownFilePath, { encoding: 'utf8' });
+
+            // Create a comment on the pull request with the markdown content
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: markdownContent
+            });
+
+      - name: Ensure directory exists and move Piperider comparison report
+        run: |
+          mkdir -p ./docs/static/piperider
+          mv ./transform/.piperider/comparisons/latest/* ./docs/static/piperider/
+          ls -h ./docs/static/piperider
+
+      - name: Build full documentation site docs
+        env:
+          MLFINANCE_STORAGE_KEY: ${{ secrets.MLFINANCE_STORAGE_KEY }}
+        run: task build-docs
+      - name: Publish documentation
+        uses: bacongobbler/azure-blob-storage-upload@main
+        with:
+          source_dir: 'site'
+          container_name: 'websites/pull_requests/${{ github.event.pull_request.number }}'
+          connection_string: ${{ secrets.AZ_CON_STRING }}
+          overwrite: 'true'
+
+
+
+      - name: Comment PR with Documentation Link
+        if: github.event.action == 'opened'
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const docUrl = `https://risk-analytics-docs.azurewebsites.net/pull_requests/${prNumber}`;
+            const piperiderUrl = `https://risk-analytics-docs.azurewebsites.net/pull_requests/${prNumber}/static/piperider`;
+
+            const commentBody = `📄 **Updated Documentation** is available at: ${docUrl}
+            📊 Datadase comparison report is available at: ${piperiderUrl}`;
+
+
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: commentBody
+            });
+
+      - name: Lint SQL
+        env:
+          MLFINANCE_STORAGE_KEY: ${{ secrets.MLFINANCE_STORAGE_KEY }}
+        run: sqlfluff lint ./transform/models --format github-annotation-native

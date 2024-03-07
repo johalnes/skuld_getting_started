@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+
+  - name: input
+    meta:
+        external_location: "../data/input/{name}/*.csv"
+    tables:
+        - name: fact_claims
+        - name: fact_premiums
+        - name: dim_product
+        - name: dim_group

@@ -1,0 +1,12 @@
+Reinsurance:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/db_dev.duckdb
+      threads: 4
+      
+    prod:
+      type: duckdb
+      path: ../data/db_prod.duckdb
+      threads: 4

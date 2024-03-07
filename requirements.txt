@@ -1,0 +1,27 @@
+adlfs
+azure-identity
+azure-storage-file-datalake
+connectorx
+dbt-duckdb
+dlt
+duckdb-engine
+ipykernel
+jupysql
+mkdocs
+mkdocs-autorefs
+mkdocs-glightbox
+mkdocs-material
+mkdocs-material-extensions
+mkdocstrings
+mkdocstrings-python
+mypy
+pandas[performance, fsspec, pyarrow, clipboard] >=2.0.0
+piperider[duckdb]
+polars[all]
+pre-commit
+ruff
+sqlalchemy >=2.0.0
+sqlfluff
+sqlfluff-templater-dbt
+streamlit
+xlsxwriter
