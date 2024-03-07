@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_claims
-    description: {{ doc('stg_claims') }}
+    description: "{{ doc('stg_claims') }}"
 
   - name: stg_premiums
-    description: {{ doc('stg_premiums') }}
+    description: "{{ doc('stg_premiums') }}"

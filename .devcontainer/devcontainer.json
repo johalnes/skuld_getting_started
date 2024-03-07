@@ -9,7 +9,7 @@
 
   // "forwardPorts": [],
 
-  "postCreateCommand": "python3 -m pip install -r requirements.txt && pre-commit install && dbt deps && npm install --prefix ./reports",
+  "postCreateCommand": "task env-install",
 	"containerEnv": {
 		"TZ": "Europe/Oslo",
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",

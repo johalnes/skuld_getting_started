@@ -1,11 +1,4 @@
-with source as (
-      select * from {{ source('input', 'fact_premiums') }}
-),
-renamed as (
-    select
-        
+with renamed as (select * from {{ source("input", "fact_premiums") }})
 
-    from source
-)
-select * from renamed
-  
+select *
+from renamed

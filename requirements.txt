@@ -20,6 +20,7 @@ piperider[duckdb]
 polars[all]
 pre-commit
 ruff
+shandy-sqlfmt[jinjafmt]
 sqlalchemy >=2.0.0
 sqlfluff
 sqlfluff-templater-dbt
