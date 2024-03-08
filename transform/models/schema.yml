@@ -3,6 +3,24 @@ version: 2
 models:
   - name: stg_claims
     description: "{{ doc('stg_claims') }}"
+    columns:
+      - name: product_line_id
+        description: The highest level of product that is generated in TIA is Product line. Product line ID is the unique identifier for the product line.
+      - name: business_unit_id
+        description: Business unit is commonly used in Skuld. Business unit ID is the unique identifier for the Business unit.
+      - name: AccidentYear
+        #description: "{{ doc('accident_date') }}"
+      - name: DevelopmentYear
+        #description: "{{ doc('financial_date') }}"
 
   - name: stg_premiums
     description: "{{ doc('stg_premiums') }}"
+    columns:
+      - name: product_line_id
+        description: "{{ doc('product_line_id') }}"
+      - name: business_unit_id
+        description: "{{ doc('business_unit_id')}} "
+      - name: AccidentYear
+        #description: "{{ doc('accident_date') }}"
+      - name: DevelopmentYear
+        #description: "{{ doc('financial_date') }}"
