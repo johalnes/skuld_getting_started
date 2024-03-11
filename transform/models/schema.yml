@@ -11,7 +11,7 @@ models:
       - name: AccidentYear
         #description: "{{ doc('accident_date') }}"
       - name: DevelopmentYear
-        #description: "{{ doc('financial_date') }}"
+        #description: "{{ doc('development_date') }}"
 
   - name: stg_premiums
     description: "{{ doc('stg_premiums') }}"
@@ -23,4 +23,28 @@ models:
       - name: AccidentYear
         #description: "{{ doc('accident_date') }}"
       - name: DevelopmentYear
-        #description: "{{ doc('financial_date') }}"
+        #description: "{{ doc('development_date') }}"
+      - name: DevelopmentYear
+        #description: "{{ doc('development_date') }}"
+  - name: int_claims
+    description: "{{ doc('int_claims') }}"
+    columns:
+      - name: primary_id
+        tests:
+          - unique
+      - name: business_id
+        tests:
+          - unique
+      - name: product_line_id
+        description: "{{ doc('product_line_id') }}"
+      - name: business_unit_id
+        description: "{{ doc('business_unit_id')}} "
+  - name: int_premiums
+    description: "{{ doc('int_premiums') }}"
+    columns:
+      - name: primary_id
+        tests:
+          - unique
+      - name: business_id
+        tests:
+          - unique

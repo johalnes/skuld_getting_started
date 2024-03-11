@@ -31,3 +31,7 @@ Incurred claims is the total case specific claims amount, that is reserves + pai
 {% docs paid_claims_usd %}
 Paid claims refers to the amount of money that has been paid out for insurance claims.
 {% enddocs %}
+
+{% docs reserved_claims_usd %}
+Paid claims refers to the amount of money that has been paid out for insurance claims.
+{% enddocs %}

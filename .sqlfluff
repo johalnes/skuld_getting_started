@@ -2,7 +2,7 @@
 dialect = duckdb
 templater = dbt
 max_line_length = 88
-exclude_rules = layout.indent, layout.cte_bracket, layout.select_targets, structure.column_order
+exclude_rules = layout.indent, layout.cte_bracket, layout.select_targets, structure.column_order, structure.using
 
 [sqlfluff:indentation]
 # While implicit indents are not enabled by default. Many of the

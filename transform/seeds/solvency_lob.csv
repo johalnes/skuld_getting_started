@@ -1,0 +1,30 @@
+﻿FORT_BRANCH, SOLVENCY_LOB,SOLVENCY_NAME,SECOND_FLOOR_NAME,SECOND_FLOOR_NAME_COMBINED
+101,1,Medical expense insurance,Medical expense insurance [direct business],Medical expense insurance [direct business and accepted proportional reinsurance]
+102,2,Income protection insurance,Income protection insurance [direct business],Income protection insurance [direct business and accepted proportional reinsurance]
+103,3,Workers' compensation insurance,Workers' compensation insurance [direct business],Workers' compensation insurance [direct business and accepted proportional reinsurance]
+104,4,Motor vehicle liability insurance,Motor vehicle liability insurance [direct business],Motor vehicle liability insurance [direct business and accepted proportional reinsurance]
+105,5,Other motor insurance,Other motor insurance [direct business],Other motor insurance [direct business and accepted proportional reinsurance]
+106,6,"Marine, aviation and transport insurance","Marine, aviation and transport insurance [direct business]","Marine, aviation and transport insurance [direct business and accepted proportional reinsurance]"
+107,7,Fire and other damage to property insurance,Fire and other damage to property insurance [direct business],Fire and other damage to property insurance [direct business and accepted proportional reinsurance]
+108,8,General liability insurance,General liability insurance [direct business],General liability insurance [direct business and accepted proportional reinsurance]
+109,9,Credit and suretyship insurance,Credit and suretyship insurance [direct business],Credit and suretyship insurance [direct business and accepted proportional reinsurance]
+110,10,Legal expenses insurance, Legal expenses insurance [direct business],Legal expenses insurance [direct business and accepted proportional reinsurance]
+111,11,Assistance,Assistance [direct business],Assistance [direct business and accepted proportional reinsurance]
+112,12,Miscellaneous financial loss,Miscellaneous financial loss [direct business],Miscellaneous financial loss [direct business and accepted proportional reinsurance]
+213,13,"Proportional medical expense reinsurance",Medical expense insurance [accepted proportional reinsurance],Medical expense insurance [direct business and accepted proportional reinsurance]
+214,14,"Proportional income protection reinsurance",Income protection insurance [accepted proportional reinsurance],Income protection insurance [direct business and accepted proportional reinsurance]
+215,15,"Proportional workers' compensation reinsurance",Workers' compensation insurance [accepted proportional reinsurance],Workers' compensation insurance [direct business and accepted proportional reinsurance]
+216,16,"Proportional motor vehicle liability reinsurance",Motor vehicle liability insurance [accepted proportional reinsurance],Motor vehicle liability insurance [direct business and accepted proportional reinsurance]
+217,17,"Proportional other motor reinsurance",Other motor insurance [accepted proportional reinsurance],Other motor insurance [direct business and accepted proportional reinsurance]
+218,18,"Proportional marine, aviation and transport reinsurance","Marine, aviation and transport insurance [accepted proportional reinsurance]","Marine, aviation and transport insurance [direct business and accepted proportional reinsurance]"
+219,19,"Proportional fire and other damage to property reinsurance",Fire and other damage to property insurance [accepted proportional reinsurance],Fire and other damage to property insurance [direct business and accepted proportional reinsurance]
+220,20,"Proportional general liability reinsurance",General liability insurance [accepted proportional reinsurance],General liability insurance [direct business and accepted proportional reinsurance]
+221,21,"Proportional credit and suretyship reinsurance",Credit and suretyship insurance [accepted proportional reinsurance],Credit and suretyship insurance [direct business and accepted proportional reinsurance]
+222,22,"Proportional legal expenses reinsurance",Legal expenses insurance [accepted proportional reinsurance],Legal expenses insurance [direct business and accepted proportional reinsurance]
+223,23,"Proportional assistance reinsurance",Assistance [proportional reinsurance],Assistance [direct business and accepted proportional reinsurance]
+224,24,"Proportional miscellaneous financial loss reinsurance",Miscellaneous financial loss [accepted proportional reinsurance],Miscellaneous financial loss [direct business and accepted proportional reinsurance]
+325,25,"Non–proportional health reinsurance",Health [accepted non-proportional reinsurance], Health [accepted non-proportional reinsurance]
+326,26,Non-proportional casualty reinsurance, Casualty [accepted non-proportional reinsurance],Casualty [accepted non-proportional reinsurance]
+327,27,"Non-proportional marine, aviation and transport reinsurance",Property [accepted non-proportional reinsurance],Property [accepted non-proportional reinsurance]
+328,28,Non-proportional property reinsurance,"Marine, aviation, transport [accepted non-proportional reinsurance]","Marine, aviation, transport [accepted non-proportional reinsurance]"
+429,29,Health insurance,Health SLT,Health SLT

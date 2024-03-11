@@ -5,6 +5,7 @@ connectorx
 dbt-duckdb
 dlt
 duckdb-engine
+harlequin
 ipykernel
 jupysql
 mkdocs

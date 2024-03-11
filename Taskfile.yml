@@ -13,12 +13,15 @@ tasks:
   dbt-docs:
     desc: Run dbt docs generate
     cmds:
-      - cd transform
-      - dbt docs generate
-      - dbt docs serve
+      - cd transform && dbt docs generate
+      - cd transform && dbt docs serve
 
   format-code:
     desc: Code formating
     cmds:
       - sqlfmt ./transform/models
       - sqlfmt ./transform/tests
+  duckdb:
+    desc: Run duckdb-ide
+    cmds:
+      - harlequin "/workspaces/skuld_getting_started/data/db_dev.duckdb" 

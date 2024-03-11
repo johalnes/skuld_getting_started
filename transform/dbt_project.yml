@@ -35,3 +35,7 @@ models:
   getting_started:
     # Config indicated by + and applies to all files under models/example/
     +materialized: table
+
+tests:
+  getting_started:
+    +store_failures_as: table
