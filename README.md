@@ -26,6 +26,5 @@ and write `dbt docs serve` to see the project site.
 
 ## Shoutout to
 
-
 - Winni's [Octocatalog] (https://github.com/gwenwindflower/octocatalog/tree/main) for structure and best practices
-- John S Bogaardt [Chainladder](https://github.com/casact/chainladder-python) for data 
+- John S Bogaardt [Chainladder](https://github.com/casact/chainladder-python) for data

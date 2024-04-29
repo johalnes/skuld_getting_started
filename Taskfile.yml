@@ -25,3 +25,8 @@ tasks:
     desc: Run duckdb-ide
     cmds:
       - harlequin "/workspaces/skuld_getting_started/data/db_dev.duckdb" 
+
+  run-ibnr:
+    - load_data.py
+    - dbt build -s ibnr_mart
+    - export_azure.py

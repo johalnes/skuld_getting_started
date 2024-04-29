@@ -1,0 +1,5 @@
+line_of_business_id,line_of_business,expected_loss_ratio
+1,Medical expense insurance,0.8
+3,Workers' compensation insurance,0.8
+4,Motor vehicle liability insurance,0.8
+8,General liability insurance,0.8
